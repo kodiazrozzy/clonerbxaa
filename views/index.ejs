@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beli Robux - SkyRBX Clone</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Beli Robux</h1>
+    <form action="/beli" method="POST">
+      <label>Username Roblox:</label>
+      <input type="text" name="username" required />
+
+      <label>Pilih jumlah Robux:</label>
+      <select name="robux" required>
+        <option value="">-- Pilih Robux --</option>
+        <option value="50">50 Robux - Rp10.000</option>
+        <option value="100">100 Robux - Rp18.000</option>
+        <option value="200">200 Robux - Rp35.000</option>
+      </select>
+
+      <button type="submit">Beli Sekarang</button>
+    </form>
+  </div>
+</body>
+</html>
